@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #7888ad;
+}
+
+/*------quote box----------*/
+#quote-box {
+  margin: 150px auto;
+  color: white;
+  background: #2f0f6e;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  height: 100%;
+  box-shadow: 2px 2px 3px black;
+}
+/*--x----quote box-x---------*/
+
+/*-----random quote machine title----------*/
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 3rem;
+}
+/*--x---random quote machine title----x------*/
+
+/*---------Quote text & author section------------*/
+#Quotes {
+  padding: 50px;
+  font-style: italic;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+#text {
+  font-size: 1.6rem;
+}
+#author {
+  font-size: 1rem;
+}
+
+/*----xx-----Quote text & author section-------xx-----*/
+
+/*------generate quote button---------*/
+.btn {
+  margin-bottom: 20px;
+  margin: 0px 5px;
+}
+
+/*-------footer--------*/
+footer {
+  margin-top: -140px;
+  color: white;
+}
+
+/*---------media query section-----------------------------*/
+@media (max-width: 1200px) {
+  #quote-box {
+    width: 60%;
+  }
+}
+
+@media (max-width: 750px) {
+  #quote-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  #quote-box {
+    width: 100%;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  #text {
+    font-size: 1.2rem;
+  }
+  #author {
+    font-size: 0.9rem;
+  }
+  #Quotes {
+    padding: 50px 0px;
+  }
+}
